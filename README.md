@@ -24,6 +24,7 @@ inside cadCAD models through interpolation
 
 ### cadCAD hacks
 
+* param_navigation.ipynb - How to append parameters to the results dataframe
 * psub_metadata.ipynb - How to use PSUB metadata for pre-processing
 * psub_map_label.ipynb - Referencing Partial State Update Blocks labels to substeps in cadCAD
 
