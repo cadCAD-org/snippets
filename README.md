@@ -1,5 +1,8 @@
 # demos/snippets
 
+![Sensitivity analysis on the Prey & Predator model](https://i.imgur.com/CkQsjU2.png)
+
+
 This is a repo containing notebooks and python files showcasing features and
 applications of cadCAD in a more brief and quick way. If you have any kind of 
 snippet or mini-demo showing how to do something, this is the place to put it!
@@ -21,6 +24,7 @@ Fork this repo, make a commit containing your snippet additions / changes, and *
 * interpolated_timeseries.ipynb - A mini-demo showing how to put sparse time series 
 inside cadCAD models through interpolation
 * diagram.ipynb - Generate diagrams for illustrating a model logic and structure
+* parameter_sensitivity - Shows how to use the cadCAD_machine_search sensitivity viz and parameter sweep features
 
 ### cadCAD hacks
 
