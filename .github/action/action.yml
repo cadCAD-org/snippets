@@ -1,0 +1,11 @@
+name: "Converts Jupyter Noteboks"
+description: "Converts Jupyter Noteboks into PDFs and HTMLs every Friday 23h59 UTC"
+author: "emanuel@block.science"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "server"
+  color: "blue"
