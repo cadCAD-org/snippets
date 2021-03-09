@@ -1,8 +1,5 @@
 # demos/snippets
 
-![Sensitivity analysis on the Prey & Predator model](https://i.imgur.com/CkQsjU2.png)
-
-
 This is a repo containing notebooks and python files showcasing features and
 applications of cadCAD in a more brief and quick way. If you have any kind of 
 snippet or mini-demo showing how to do something, this is the place to put it!

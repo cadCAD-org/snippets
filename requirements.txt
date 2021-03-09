@@ -1,0 +1,11 @@
+pandas
+matplotlib
+cadCAD
+cadCAD_diagram
+numpy
+jupyter
+nbconvert
+scipy
+psutil
+seaborn
+plotly
