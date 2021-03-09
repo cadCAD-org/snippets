@@ -10,7 +10,7 @@ apt-get update && apt-get install -y pandoc \
 
 pip3 install --user --no-cache-dir -r requirements.txt
 
-cd notebooks
+cd snippets
 
 mkdir -p output/pdf
 mkdir -p output/html
