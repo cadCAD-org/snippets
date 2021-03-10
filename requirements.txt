@@ -11,4 +11,5 @@ seaborn
 plotly
 cadcad_machine_search
 sklearn
+requests
 
