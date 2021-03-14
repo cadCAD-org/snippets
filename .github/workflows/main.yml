@@ -25,7 +25,7 @@ jobs:
           git fetch
           git checkout gh-pages
           git checkout main snippets/output/html/*.html
-          git mv snippets/output/html/*.html snippets/
+          git mv --force snippets/output/html/*.html snippets/
           git commit -m "Add HTML notebooks"
           git push --set-upstream origin gh-pages
           echo "Finished!"
