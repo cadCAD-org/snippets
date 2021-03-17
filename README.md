@@ -35,3 +35,7 @@ inside cadCAD models through interpolation
 execution time
 * memory_buster.ipynb - A cadCAD model for blowing the memory usage. 
 Can be useful for debugging
+
+### Other
+
+* cadCAD_minimal.ipynb - A very concise and basic implementation of the cadCAD simulation pipeline
