@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
       - uses: ./.github/action
       - name: Commit PDFs and HTMLs
         run: |
