@@ -15,7 +15,7 @@ with os.scandir('snippets/') as notebooks:
             notebook_dict[nb.name] = nb.name[:-5].title().replace('_', ' ')
 
 for filename, title in notebook_dict.items():
-    command += f'<li><a href="notebooks/{filename}">{title}</a></li>\n'
+    command += f'<li><a href="snippets/{filename}">{title}</a></li>\n'
 
 command_ul += command
 command_ul += '</ul>\n'
