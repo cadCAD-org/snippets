@@ -9,7 +9,7 @@ notebook_dict = {}
 command_ul = '<ul>\n'
 command = ''
 
-with os.scandir('notebooks/') as notebooks:
+with os.scandir('snippets/') as notebooks:
     for nb in notebooks:
         if nb.name[-5:] == '.html':
             notebook_dict[nb.name] = nb.name[:-5].title().replace('_', ' ')
