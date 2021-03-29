@@ -1,0 +1,11 @@
+name: "Menu Creation"
+description: "Creates the website menu after the convert workflow is run"
+author: "emanuel@block.science"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "server"
+  color: "green"
