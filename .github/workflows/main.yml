@@ -1,4 +1,4 @@
-name: "Workflow to Convert Jupyter Noteboks"
+name: "Convert Jupyter Noteboks"
 on:
   push:
     branches:
