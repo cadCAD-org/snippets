@@ -16,5 +16,5 @@ cd snippets
 mkdir -p output/pdf
 mkdir -p output/html
 
-jupyter nbconvert --to pdf  *.ipynb --output-dir output/pdf
-jupyter nbconvert --to html  *.ipynb --output-dir output/html
+jupyter nbconvert --to pdf --execute *.ipynb --output-dir output/pdf
+jupyter nbconvert --to html --execute *.ipynb --output-dir output/html
