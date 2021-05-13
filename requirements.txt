@@ -13,3 +13,4 @@ cadcad_machine_search
 sklearn
 requests
 tqdm
+xarray
