@@ -40,4 +40,5 @@ Can be useful for debugging
 
 ### Other
 
+* game_hack.ipynb - Repeated Prisioners Dilemma in cadCAD
 * cadCAD_minimal.ipynb - A very concise and basic implementation of the cadCAD simulation pipeline
