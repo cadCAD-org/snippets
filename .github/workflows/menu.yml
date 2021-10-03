@@ -1,0 +1,26 @@
+name: "Create the Website Menu"
+
+# Only triggers, when the convert workflow succeeds
+on:
+  workflow_run:
+    workflows: ["Convert Jupyter Noteboks"]
+    types:
+      - completed
+
+jobs:
+  menu:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+      - uses: ./.github/menu_action
+      - name: Build Website Menu
+        run: |
+          git config --global user.name 'Menu Creation Action'
+          git config --global user.email 'emanuel@block.science'
+          git add *.html
+          git commit -m "Add generated menu"
+          git push origin gh-pages
+          echo "Finished!"

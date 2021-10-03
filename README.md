@@ -1,3 +1,5 @@
+[![Convert Jupyter Noteboks](https://github.com/cadCAD-org/snippets/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/cadCAD-org/snippets/actions/workflows/main.yml)
+
 # demos/snippets
 
 This is a repo containing notebooks and python files showcasing features and
@@ -38,4 +40,5 @@ Can be useful for debugging
 
 ### Other
 
+* game_hack.ipynb - Repeated Prisioners Dilemma in cadCAD
 * cadCAD_minimal.ipynb - A very concise and basic implementation of the cadCAD simulation pipeline
